@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    android:id="@+id/rlUserHeader">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/ivProfile"
+        android:paddingRight="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_alignTop="@id/ivProfile"
+        android:layout_toRightOf="@+id/ivProfile"
+        android:id="@+id/UserName"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/screenName"
+        android:layout_below="@id/UserName"
+        android:layout_toRightOf="@+id/ivProfile"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:id="@+id/descript"
+        android:layout_below="@id/ivProfile" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/dark"
+        android:text="TWEETS"
+        android:paddingBottom="8dp"
+        android:paddingTop="32dp"
+        android:id="@+id/tweetLb"
+        android:layout_below="@id/descript"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="40 Following 5 Follower"
+        android:id="@+id/follow"
+        android:paddingBottom="8dp"
+        android:paddingTop="32dp"
+        android:layout_below="@id/descript"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
