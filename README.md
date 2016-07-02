@@ -49,7 +49,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a prevuew of implemented user stories:
+Here's a preview of implemented user stories:
 
 <img src='http://g.recordit.co/ikmgVcuXWp.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
